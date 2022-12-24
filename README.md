@@ -8,7 +8,7 @@ A basic project for real time logging
 - MongoDB (To store logs in DB)
 - React (Front end)
 - PHP (App2 to send error logs to Node app)
-- RabbitMQ (For real time logs using Server Sent Events)
+- RabbitMQ (For fetching logs from queue and send to logger dashboard using Server Sent Events aka SSE)
 
 
 
