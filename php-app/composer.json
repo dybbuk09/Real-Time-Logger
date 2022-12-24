@@ -1,0 +1,17 @@
+{
+    "name": "logger/php",
+    "autoload": {
+        "psr-4": {
+            "App\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Harish Rawat",
+            "email": "harish.rawat@gmail.com"
+        }
+    ],
+    "require": {
+        "hraw/httpclient": "^1.0"
+    }
+}

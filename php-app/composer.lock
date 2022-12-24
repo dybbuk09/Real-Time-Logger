@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "034ed4c7582e9da23c8119a0d5075f52",
+    "packages": [
+        {
+            "name": "hraw/httpclient",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dybbuk09/PHP-HTTP-Client.git",
+                "reference": "fd7f8a2f1f3c902668231ebc93862a328c6a3970"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dybbuk09/PHP-HTTP-Client/zipball/fd7f8a2f1f3c902668231ebc93862a328c6a3970",
+                "reference": "fd7f8a2f1f3c902668231ebc93862a328c6a3970",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Harish Rawat",
+                    "email": "harishrawat93@gmail.com"
+                }
+            ],
+            "description": "A simple and easy to implement wrapper for PHP cURL",
+            "keywords": [
+                "PHP cURL",
+                "curl",
+                "curl library",
+                "http client"
+            ],
+            "support": {
+                "issues": "https://github.com/dybbuk09/PHP-HTTP-Client/issues",
+                "source": "https://github.com/dybbuk09/PHP-HTTP-Client/tree/v1.0.0"
+            },
+            "time": "2022-06-08T15:05:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

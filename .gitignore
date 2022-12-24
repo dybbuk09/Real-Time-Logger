@@ -1,0 +1,5 @@
+.vscode/
+.env
+node_modules/
+fe/node_modules
+fe/build
